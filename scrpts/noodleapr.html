@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+  <title>N00DLE_ADD_P0ST_REDIRECT</title>
+  <link rel="icon" href="../imgs/logo.png">
+  <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../style.css" rel="stylesheet" type="text/css">
+  <script src="../scrpts/index.js"></script>
+  <script src="../scrpts/addp.js"></script>
+</head>
+<body onload="on_load2()" class="body-yes-bg">
+  <p>To create new lines please use Shift+Enter.</p>
+  <form id="body">
+    <div class="row">
+      <div class="col-md-6">
+        <label for="usrnm">URNAME:</label>
+        <input name="username" type="text" size="30" maxlength="50" id="usrnm" required>
+      </div>
+      <div class="col-md-6">
+        <label for="ttl">T!TLE:</label>
+        <input name="title" type="text" size="30" maxlength="100" id="ttl" required>
+      </div>
+    </div>
+    <div class="row mt-4 mb-4">
+      <label for="tt">TEXT:</label>
+      <textarea id="tt" name="textthing" required></textarea>
+    </div>
+    <button type="button" class="btn btn-dark" onclick="addp(sessionStorage['usrnm'], cleanUp(document.getElementById('usrnm').value), cleanUp(document.getElementById('ttl').value), cleanUp(document.getElementById('tt').value))">Send.</button>
+  </form>
+</body>
+</html>

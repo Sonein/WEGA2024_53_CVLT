@@ -1,1 +1,3 @@
-Simply type "node server.mjs" into console :)
+Unpack the zip file in this folder.
+Make sure Node.js is installed.
+Then simply type "node server.mjs" into console :)

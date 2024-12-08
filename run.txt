@@ -1,3 +1,4 @@
 Unpack the zip file in this folder.
 Make sure Node.js is installed.
+Write "npm install" to console.
 Then simply type "node server.mjs" into console :)

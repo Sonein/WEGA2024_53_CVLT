@@ -1,6 +1,4 @@
-Also this seems to be quite windows unfriendly...
-
-Unpack the zip file in this folder.
-Make sure Node.js is installed.
-Write "npm install" to console.
-Then simply type "node server.mjs" into console :)
+1. Make sure Node.js is installed.
+2. Open the project directory (../WEGA2024_53_CVLT-main/) in console and write "npm install" to console.
+3. Unpack node_modules.zip file into this directory.
+4. Then simply type "node server.mjs" into console :)

@@ -1,3 +1,5 @@
+Also this seems to be quite windows unfriendly...
+
 Unpack the zip file in this folder.
 Make sure Node.js is installed.
 Write "npm install" to console.

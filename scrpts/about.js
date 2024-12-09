@@ -1,7 +1,9 @@
 function on_load2(){
     if(sessionStorage['in'] === false || sessionStorage['in'] === 'false'){
-        document.getElementById('navigation').innerHTML = `<h1>12!</h1>
-    <button type="button" class="btn btn-dark" onclick="resetForm()">Fuck off</button>`;
+        document.getElementById('body').innerHTML = `<div id="navigation" class="mb-2">
+  <h1>12!</h1>
+    <button type="button" class="btn btn-dark" onclick="resetForm()">Fuck off</button>
+    </div>`;
         return;
     }
     printNav();
